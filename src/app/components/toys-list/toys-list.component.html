@@ -1,7 +1,7 @@
 <app-list>
     <h2 app-list-header>Toys list header</h2>
     <span app-list-footer>Toys list footer</span>
-    <app-list-item *ngFor=let toy of toys>
+    <app-list-item *ngFor="let toy of toys">
         <p>Name: {{toy.name}}, color: {{toy.color}}</p>
     </app-list-item>
 </app-list>
