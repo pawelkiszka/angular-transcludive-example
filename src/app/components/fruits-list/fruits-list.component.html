@@ -1,0 +1,7 @@
+<app-list>
+    <h2 app-list-header>Fruits list header</h2>
+    <span app-list-footer>Fruits list footer</span>
+    <app-list-item *ngFor="let fruit of fruits">
+        <p>Name: {{fruit.name}}, shape: {{fruit.shape}}</p>
+    </app-list-item>
+</app-list>
